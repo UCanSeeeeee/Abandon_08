@@ -3,7 +3,9 @@ func containsDuplicate(_ nums: [Int]) -> Bool {
         for x in i...(nums.count-1){
             if (nums[i]-nums[x]==0)&&(x != i){
                 return true
-            }else{}
+            }else{
+                
+            }
         }
     }
     return false
